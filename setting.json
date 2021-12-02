@@ -2,7 +2,7 @@
   "name-web":"STACKOVERFLOW MASKODING",
   "author":"MASKODING",
   "remove-comment-html":true,
-  "target":"https://www.nordstrom.com/",
+  "target":"https://cherryontopblog.com/",
   "name-folder-sitemap":"sitemap",
   "element-remove":[
     "noscript",
@@ -19,20 +19,20 @@
   ],
   "costom-element-remove":[
     {
-      "target":"https://www.nordstrom.com/",
+      "target":"https://cherryontopblog.com/",
       "element-remove-selector":[
         ".js-dismissable-hero",
         ".lazy-loading"
       ],
       "replace-string":[
         {
-          "target":"https://www.nordstrom.com/",
+          "target":"https://cherryontopblog.com/",
           "replace":"${nameWeb}"
         }
       ]
     },
     {
-      "target":"https://www.nordstrom.com/",
+      "target":"https://cherryontopblog.com/",
       "element-remove-selector":[
         ".baca",
         ".op-interactive",

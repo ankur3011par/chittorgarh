@@ -5,7 +5,6 @@
   "target":"https://www.nordstrom.com/",
   "name-folder-sitemap":"sitemap",
   "element-remove":[
-    "script",
     "noscript",
     "meta",
     "iframe",
@@ -20,20 +19,20 @@
   ],
   "costom-element-remove":[
     {
-      "target":"stackoverflow.com",
+      "target":"https://www.nordstrom.com/",
       "element-remove-selector":[
         ".js-dismissable-hero",
         ".lazy-loading"
       ],
       "replace-string":[
         {
-          "target":"https://stackoverflow.com",
+          "target":"https://www.nordstrom.com/",
           "replace":"${nameWeb}"
         }
       ]
     },
     {
-      "target":"m.tribunnews.com",
+      "target":"https://www.nordstrom.com/",
       "element-remove-selector":[
         ".baca",
         ".op-interactive",
